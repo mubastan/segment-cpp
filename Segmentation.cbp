@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Segmentation" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="lib/libSegmentation" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add directory="/home/bastan/research/libs/opencv/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="/home/bastan/research/libs/opencv/lib/libopencv_core.so" />
+					<Add library="/home/bastan/research/libs/opencv/lib/libopencv_highgui.so" />
+				</Linker>
+			</Target>
+			<Target title="SegmentTest">
+				<Option output="bin/Segmentation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="/home/bastan/research/libs/opencv/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="/home/bastan/research/libs/opencv/lib/libopencv_core.so" />
+					<Add library="/home/bastan/research/libs/opencv/lib/libopencv_highgui.so" />
+					<Add library="/home/bastan/research/code/libs/Segmentation/lib/libSegmentation.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="DisjointSet.cpp" />
+		<Unit filename="DisjointSet.h" />
+		<Unit filename="Edge.cpp" />
+		<Unit filename="Edge.h" />
+		<Unit filename="GGBS.cpp" />
+		<Unit filename="GGBS.h" />
+		<Unit filename="GreedyGraphSeg.cpp" />
+		<Unit filename="GreedyGraphSeg.h" />
+		<Unit filename="SRMSeg.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="SRMSeg.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option target="SegmentTest" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

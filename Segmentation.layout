@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="SegmentTest" />
+	<File name="DisjointSet.h" open="1" top="1" tabpos="6">
+		<Cursor position="774" topLine="0" />
+	</File>
+	<File name="GGBS.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4487" topLine="0" />
+	</File>
+	<File name="GGBS.h" open="0" top="0" tabpos="6">
+		<Cursor position="1736" topLine="0" />
+	</File>
+	<File name="GreedyGraphSeg.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="7565" topLine="418" />
+	</File>
+	<File name="GreedyGraphSeg.h" open="1" top="0" tabpos="3">
+		<Cursor position="996" topLine="15" />
+	</File>
+	<File name="SRMSeg.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="4623" topLine="200" />
+	</File>
+	<File name="SRMSeg.h" open="1" top="0" tabpos="4">
+		<Cursor position="1083" topLine="27" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1244" topLine="30" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,560 @@
+# depslib dependency file v1.0
+1278662794 source:/home/bastan/research/code/bilvideo7/Segmentation/BILDisjointSet.cpp
+	"BILDisjointSet.h"
+
+1276325900 ntSet.h"
+
+1278652482 /home/bastan/research/code/bilvideo7/Segmentation/BILDisjointSet.h
+
+1181637616 source:/home/bastan/research/code/bilvideo7/Segmentation/BILException.cpp
+	"BILException.h"
+
+1181637616 ion.h"
+
+1181637546 /home/bastan/research/code/bilvideo7/Segmentation/BILException.h
+	<iostream>
+	<string>
+
+1295038529 
+
+1278941392 source:/home/bastan/research/code/bilvideo7/Segmentation/BILVideoGSeg.cpp
+	<algorithm>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	"BILVideoGSeg.h"
+	"BILException.h"
+	<iomanip>
+
+1278941392 /home/bastan/research/code/bilvideo7/Segmentation/BILVideoGSeg.h
+	<vector>
+	<cxcore.h>
+	"BILDisjointSet.h"
+	"Edge.h"
+
+1286615590 /home/bastan/research/libs/opencv/include/opencv/cxcore.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+
+1286615604 ore/core.hpp"
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/core/core_c.h
+	"opencv2/core/types_c.h"
+
+1279231824 ore/types_c.h"
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/core/types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+
+1281001256 >
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/core/core.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/version.hpp"
+	<limits.h>
+	<algorithm>
+	<cmath>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	"opencv2/core/operations.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/core/flann.hpp"
+
+1286615603 ore/flann.hpp"
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/core/version.hpp
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/core/operations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	"windows.h"
+	<limits>
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/core/mat.hpp
+	<limits.h>
+	<string.h>
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/core/flann.hpp
+
+1278653672 /home/bastan/research/code/bilvideo7/Segmentation/Edge.h
+
+1278260704 source:/home/bastan/research/code/bilvideo7/Segmentation/BILVideoJSeg.cpp
+	"BILVideoJSeg.h"
+
+1278260704 Seg.h"
+
+1278260800 /home/bastan/research/code/bilvideo7/Segmentation/BILVideoJSeg.h
+	<algorithm>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<cv.h>
+	"BILException.h"
+	"JSeg.h"
+
+1286615590 /home/bastan/research/libs/opencv/include/opencv/cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/video/tracking.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/core/internal.hpp"
+
+1286615590 ore/internal.hpp"
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/imgproc/imgproc_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/types_c.h"
+	"opencv2/imgproc/compat_c.h"
+
+1286615603 mgproc/compat_c.h"
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/imgproc/types_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/types_c.h"
+
+1286615603 mgproc/types_c.h"
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/imgproc/compat_c.h
+	<math.h>
+	<string.h>
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/imgproc/imgproc.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/types_c.h"
+
+1286615604 /home/bastan/research/libs/opencv/include/opencv2/video/tracking.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+
+1286615604 mgproc/imgproc_c.h"
+
+1286615604 /home/bastan/research/libs/opencv/include/opencv2/features2d/features2d.hpp
+	"opencv2/core/core.hpp"
+	<limits>
+
+1286615604 /home/bastan/research/libs/opencv/include/opencv2/calib3d/calib3d.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/calib3d/compat_c.h"
+
+1286615604 alib3d/compat_c.h"
+
+1286615604 /home/bastan/research/libs/opencv/include/opencv2/calib3d/compat_c.h
+	"opencv2/imgproc/imgproc_c.h"
+
+1286615604 /home/bastan/research/libs/opencv/include/opencv2/objdetect/objdetect.hpp
+	"opencv2/core/core.hpp"
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/core/internal.hpp
+	<vector>
+	<windows.h>
+	<pthread.h>
+	<sys/mman.h>
+	"ipp.h"
+	"emmintrin.h"
+	"pmmintrin.h"
+	"tbb/tbb_stddef.h"
+	"tbb/tbb.h"
+	<Eigen/Core>
+	"opencv2/core/eigen.hpp"
+	<malloc.h>
+	<alloca.h>
+	<stdlib.h>
+
+1286615603 /home/bastan/research/libs/opencv/include/opencv2/core/eigen.hpp
+	"cxcore.h"
+
+1197272880 /home/bastan/research/code/bilvideo7/Segmentation/JSeg.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"segment.h"
+	"imgutil.h"
+	"mathutil.h"
+	"quan.h"
+	"memutil.h"
+	"jfunc.h"
+	"highgui.h"
+	"cxcore.h"
+
+1224864524 /home/bastan/research/code/bilvideo7/Segmentation/segment.h
+
+1242107678 /home/bastan/research/code/bilvideo7/Segmentation/imgutil.h
+
+1197129112 /home/bastan/research/code/bilvideo7/Segmentation/mathutil.h
+
+1199006166 /home/bastan/research/code/bilvideo7/Segmentation/quan.h
+
+1197129112 /home/bastan/research/code/bilvideo7/Segmentation/memutil.h
+
+1224864518 /home/bastan/research/code/bilvideo7/Segmentation/jfunc.h
+
+1286615590 /home/bastan/research/libs/opencv/include/opencv/highgui.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/highgui/highgui.hpp"
+
+1286615590 ighgui/highgui.hpp"
+
+1286615602 /home/bastan/research/libs/opencv/include/opencv2/highgui/highgui_c.h
+	"opencv2/core/core_c.h"
+	<windows.h>
+
+1286615602 /home/bastan/research/libs/opencv/include/opencv2/highgui/highgui.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1288799492 ighgui/highgui_c.h"
+
+1278653786 source:/home/bastan/research/code/bilvideo7/Segmentation/Edge.cpp
+	"Edge.h"
+
+1279123190 source:/home/bastan/research/code/bilvideo7/Segmentation/GGBS.cpp
+	<algorithm>
+	<cmath>
+	<cstdlib>
+	"GGBS.h"
+
+1279122714 /home/bastan/research/code/bilvideo7/Segmentation/GGBS.h
+	"BILDisjointSet.h"
+	"Edge.h"
+
+1197392464 source:/home/bastan/research/code/bilvideo7/Segmentation/JSeg.cpp
+	"JSeg.h"
+
+1276325962 source:/home/bastan/research/code/bilvideo7/Segmentation/SRMSeg.cpp
+	<algorithm>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	"SRMSeg.h"
+
+1276325900 /home/bastan/research/code/bilvideo7/Segmentation/SRMSeg.h
+	"cxcore.h"
+	"BILDisjointSet.h"
+
+1242107678 source:/home/bastan/research/code/bilvideo7/Segmentation/imgutil.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"mathutil.h"
+	"imgutil.h"
+	"highgui.h"
+	"cxcore.h"
+
+1197201672 source:/home/bastan/research/code/bilvideo7/Segmentation/jfunc.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<math.h>
+	"mathutil.h"
+	"imgutil.h"
+	"memutil.h"
+	"quan.h"
+	"segment.h"
+	"jfunc.h"
+
+1289381254 source:/home/bastan/research/code/bilvideo7/Segmentation/main.c
+
+1197191728 source:/home/bastan/research/code/bilvideo7/Segmentation/mathutil.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"mathutil.h"
+
+1197191728 h"
+
+1197139574 source:/home/bastan/research/code/bilvideo7/Segmentation/memutil.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"memutil.h"
+
+1197139574 "
+
+1199006168 source:/home/bastan/research/code/bilvideo7/Segmentation/quan.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"mathutil.h"
+	"imgutil.h"
+	"memutil.h"
+	"quan.h"
+	"segment.h"
+	"jfunc.h"
+
+1197201672 source:/home/bastan/research/code/bilvideo7/Segmentation/reggrow.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<math.h>
+	"mathutil.h"
+	"imgutil.h"
+	"memutil.h"
+	"segment.h"
+	"jfunc.h"
+
+1197301802 source:/home/bastan/research/code/bilvideo7/Segmentation/segment.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<math.h>
+	"mathutil.h"
+	"imgutil.h"
+	"memutil.h"
+	"segment.h"
+	"jfunc.h"
+
+1289381461 source:/home/bastan/research/code/bilvideo7/Segmentation/xv24to8.cpp
+	"xv.h"
+
+1197137200 /home/bastan/research/code/bilvideo7/Segmentation/xv.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1197201294 source:/home/bastan/research/code/bilvideo7/Segmentation/xvmisc.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"xv.h"
+
+1278653786 source:d:\research\code\libs\segmentatation\edge.cpp
+	"Edge.h"
+
+1278653672 d:\research\code\libs\segmentatation\edge.h
+
+1294859829 source:d:\research\code\libs\segmentatation\ggbs.cpp
+	<algorithm>
+	<cmath>
+	<cstdlib>
+	"GGBS.h"
+
+1294859828 d:\research\code\libs\segmentatation\ggbs.h
+	"DisjointSet.h"
+	"Edge.h"
+
+1294859909 d:\research\code\libs\segmentatation\disjointset.h
+
+1294859828 source:d:\research\code\libs\segmentatation\disjointset.cpp
+	"DisjointSet.h"
+
+1295038612 et.h"
+
+1295037842 source:d:\research\code\libs\segmentatation\greedygraphseg.cpp
+	<algorithm>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+	"GreedyGraphSeg.h"
+
+1295037842 phSeg.h"
+
+1294865915 d:\research\code\libs\segmentatation\greedygraphseg.h
+	<vector>
+	"opencv2/core/core.hpp"
+	"DisjointSet.h"
+	"Edge.h"
+
+1290639988 d:\research\libs\opencv2.2\include\opencv2\core\core.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/version.hpp"
+	<limits.h>
+	<algorithm>
+	<cmath>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	"opencv2/core/operations.hpp"
+	"opencv2/core/mat.hpp"
+
+1290639988 ore/mat.hpp"
+
+1290639988 d:\research\libs\opencv2.2\include\opencv2\core\types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+
+1291504244 d:\research\libs\opencv2.2\include\opencv2\core\version.hpp
+
+1291068316 d:\research\libs\opencv2.2\include\opencv2\core\operations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	"windows.h"
+	<limits>
+
+1291068316 d:\research\libs\opencv2.2\include\opencv2\core\mat.hpp
+	<limits.h>
+	<string.h>
+
+1295038529 source:d:\research\code\libs\segmentatation\main.cpp
+	<iostream>
+	"opencv2/highgui/highgui.hpp"
+	"GreedyGraphSeg.h"
+	"SRMSeg.h"
+
+1288799492 d:\research\libs\opencv2.2\include\opencv2\highgui\highgui.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1281001256 d:\research\libs\opencv2.2\include\opencv2\highgui\highgui_c.h
+	"opencv2/core/core_c.h"
+	<windows.h>
+
+1279231824 d:\research\libs\opencv2.2\include\opencv2\core\core_c.h
+	"opencv2/core/types_c.h"
+
+1295038612 d:\research\code\libs\segmentatation\srmseg.h
+	"opencv2/core/core.hpp"
+	"DisjointSet.h"
+
+1294859828 source:/home/bastan/research/code/libs/Segmentation/DisjointSet.cpp
+	"DisjointSet.h"
+
+1297417262 /home/bastan/research/code/libs/Segmentation/DisjointSet.h
+
+1278653786 source:/home/bastan/research/code/libs/Segmentation/Edge.cpp
+	"Edge.h"
+
+1278653672 /home/bastan/research/code/libs/Segmentation/Edge.h
+
+1294859828 source:/home/bastan/research/code/libs/Segmentation/GGBS.cpp
+	<algorithm>
+	<cmath>
+	<cstdlib>
+	"GGBS.h"
+
+1294859828 /home/bastan/research/code/libs/Segmentation/GGBS.h
+	"DisjointSet.h"
+	"Edge.h"
+
+1328007414 source:/home/bastan/research/code/libs/Segmentation/GreedyGraphSeg.cpp
+	<algorithm>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+	"GreedyGraphSeg.h"
+
+1328008528 /home/bastan/research/code/libs/Segmentation/GreedyGraphSeg.h
+	<vector>
+	"opencv2/core/core.hpp"
+	"DisjointSet.h"
+	"Edge.h"
+
+1327139953 /home/bastan/research/libs/opencv/include/opencv2/core/core.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/version.hpp"
+	<limits.h>
+	<algorithm>
+	<cmath>
+	<cstddef>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	"opencv2/core/operations.hpp"
+	"opencv2/core/mat.hpp"
+
+1327139953 /home/bastan/research/libs/opencv/include/opencv2/core/types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+	"tegra_round.hpp"
+
+1327139953 /home/bastan/research/libs/opencv/include/opencv2/core/version.hpp
+
+1327139953 /home/bastan/research/libs/opencv/include/opencv2/core/operations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	<windows.h>
+	<limits>
+
+1327139953 /home/bastan/research/libs/opencv/include/opencv2/core/mat.hpp
+	<limits.h>
+	<string.h>
+
+1328007359 source:/home/bastan/research/code/libs/Segmentation/SRMSeg.cpp
+	<algorithm>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	"SRMSeg.h"
+
+1327487344 /home/bastan/research/code/libs/Segmentation/SRMSeg.h
+	"opencv2/core/core.hpp"
+	"DisjointSet.h"
+
+1327162731 source:/home/bastan/research/code/libs/Segmentation/main.cpp
+	<iostream>
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"GreedyGraphSeg.h"
+	"SRMSeg.h"
+
+1327139953 /home/bastan/research/libs/opencv/include/opencv2/highgui/highgui.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1327139953 /home/bastan/research/libs/opencv/include/opencv2/highgui/highgui_c.h
+	"opencv2/core/core_c.h"
+
+1327139953 /home/bastan/research/libs/opencv/include/opencv2/core/core_c.h
+	"opencv2/core/types_c.h"
+
+1327139954 /home/bastan/research/libs/opencv/include/opencv2/imgproc/imgproc.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/types_c.h"
+
+1327139954 /home/bastan/research/libs/opencv/include/opencv2/imgproc/types_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/types_c.h"
+
