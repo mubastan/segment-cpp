@@ -1,7 +1,7 @@
 #ifndef BIL_DISJOINT_SET_H
 #define BIL_DISJOINT_SET_H
 
-// disjoint-set forests using union-by-rank and path compression (sort of).
+// Disjoint-set forest using union-by-rank and path compression.
 
 typedef struct
 {
@@ -21,10 +21,13 @@ public:
     /// reset the DSF, bring it to the initial state
     void reset();
 
-    /// which set does x belong to
+    /// which set does x belong to, with recursive path compression
     int find( int x );
-
-    /// join sets x, y; do union-by-rank & path compression
+    
+    /// which set does x belong to, iterative, (almost) no path compression
+    int find_nopc( int x )
+    
+    /// union: join sets x, y; do union-by-rank & path compression
     void join( int x, int y );
 
     /// size of set x
