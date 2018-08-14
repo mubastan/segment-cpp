@@ -33,9 +33,21 @@ DisjointSet :: ~DisjointSet()
 }
 
 /**
- * find which set `x` belongs to (i.e., the root)
+ * find which set `x` belongs to (i.e., the root), with recursive path compression
  */
 int DisjointSet :: find( int x )
+{
+    if (elts[x].p != x)
+        elts[x].p = find(elts[x].p)
+    
+
+    return elts[x].p;
+}
+
+/**
+ * find which set `x` belongs to (i.e., the root), with (almost) no path compression
+ */
+int DisjointSet :: find_nopc( int x )
 {
     int y = x;
     while ( y != elts[y].p )
